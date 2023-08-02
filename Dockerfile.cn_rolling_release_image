@@ -1,0 +1,5 @@
+
+# FROM texlive_local_build:latest
+FROM texlive_local_point_build:latest 
+
+RUN tlmgr update --self --all
